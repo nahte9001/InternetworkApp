@@ -97,12 +97,9 @@
 		21FEB21021C16F3A00C8EF54 /* InternetworkApp */ = {
 			isa = PBXGroup;
 			children = (
-				21FEB21121C16F3A00C8EF54 /* AppDelegate.swift */,
-				21FEB21321C16F3A00C8EF54 /* ViewController.swift */,
-				21FEB21521C16F3A00C8EF54 /* Main.storyboard */,
-				21FEB21821C16F3F00C8EF54 /* Assets.xcassets */,
-				21FEB21A21C16F3F00C8EF54 /* LaunchScreen.storyboard */,
-				21FEB21D21C16F3F00C8EF54 /* Info.plist */,
+				21FEB23F21C16F9D00C8EF54 /* Resources */,
+				21FEB24021C16FA900C8EF54 /* ViewController */,
+				21FEB24121C16FD800C8EF54 /* View */,
 			);
 			path = InternetworkApp;
 			sourceTree = "<group>";
@@ -123,6 +120,33 @@
 				21FEB23321C16F3F00C8EF54 /* Info.plist */,
 			);
 			path = InternetworkAppUITests;
+			sourceTree = "<group>";
+		};
+		21FEB23F21C16F9D00C8EF54 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				21FEB21121C16F3A00C8EF54 /* AppDelegate.swift */,
+				21FEB21821C16F3F00C8EF54 /* Assets.xcassets */,
+				21FEB21D21C16F3F00C8EF54 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		21FEB24021C16FA900C8EF54 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				21FEB21321C16F3A00C8EF54 /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		21FEB24121C16FD800C8EF54 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				21FEB21521C16F3A00C8EF54 /* Main.storyboard */,
+				21FEB21A21C16F3F00C8EF54 /* LaunchScreen.storyboard */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
